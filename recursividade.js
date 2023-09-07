@@ -29,3 +29,15 @@ function conc() {
 }
 
 conc();
+
+//=============================================================
+
+//uma forma mais simples de fazer a mesma coisa
+let arr = [];
+i = 10;
+while (arr.length < i) {
+    let call1 = Number(prompt("digite um numero"));
+    console.log(call1);
+    arr.push(call1);
+    console.log(arr);
+}
